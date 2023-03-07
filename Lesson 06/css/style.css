@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
+
+body {
+    padding: 10%;
+    font-size: 2rem;
+    font-family: 'Sono', sans-serif;
+}
+
+input, button {
+    font: inherit;
+}
+
+p {
+    text-indent: 2em; /*For the forst line*/
+    text-decoration: underline;
+    text-align: justify;
+    text-transform: capitalize;
+    line-height: 1.5;
+    letter-spacing: .1em;
+    word-spacing: .3em;
+}
