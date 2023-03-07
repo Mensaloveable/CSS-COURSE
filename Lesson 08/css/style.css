@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
+
+body {
+    padding: 5% 10%;
+    font-size: 2rem;
+    font-family: 'Sono', sans-serif;
+}
+
+ol {
+    padding-left: 80px;
+    list-style-type:decimal-leading-zero;
+    /* list-style-type:none; */
+}
+
+ul {
+    list-style-type: square;
+    list-style-position: inside;
+    /* list-style-image: url(../images/checkmark.png);
+    list-style: square url(../images/checkmark.png) outside; /* SHORT FORM*/ 
+    text-align: center;
+    color: cadetblue;
+    line-height: 1.5;
+}
+
+ul li:hover{
+    background: gold;
+}
+
+ol li:nth-child(2) {
+    color: seagreen;
+}
+
+li:nth-child(odd) {
+    color: coral;
+}
+
+::marker {
+    color: rebeccapurple;
+}
+
+ul ::marker {
+    color: rebeccapurple;
+    /* list-style-position: inside; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    content: "Only $5 >>";
+}
