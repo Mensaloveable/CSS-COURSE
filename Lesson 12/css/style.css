@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body{
+    font-size: 2rem;
+    font-family: 'Sono', sans-serif;
+    line-height: 1.5;
+    word-spacing: 1ch;
+    letter-spacing: 1px;
+}
