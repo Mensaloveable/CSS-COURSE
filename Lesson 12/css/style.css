@@ -7,9 +7,39 @@
 } */
 
 body{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: 'Sono', sans-serif;
-    line-height: 1.5;
-    word-spacing: 1ch;
-    letter-spacing: 1px;
+}
+
+.columns{
+    /* column-count: 4;
+    column-width: 250px; */
+    columns: 4 250px;
+    column-rule: 3px solid burlywood;
+    column-gap: 2rem;
+}
+
+.columns p {
+    margin-top: 0;
+}
+
+.columns h2{
+    margin-top: 0;
+    background-color:bisque;
+    color: cadetblue;
+    padding: 1rem;
+    break-inside: avoid;
+    /* break-before: column; */
+}
+
+.columns .quote {
+    margin-top: 2rem;
+    font-size: 3rem;
+    color: brown;
+    text-align: center;
+    column-span: all;
+}
+.noWrap {
+    /* display: inline-block; */ /*My own method*/
+    white-space: nowrap;
 }
